@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Price History</h1>
+
+<table border="1">
+
+<tr>
+    <th>ID</th>
+    <th>Product</th>
+    <th>Price</th>
+</tr>
+
+{% for row in data %}
+
+<tr>
+    <td>{{ row.id }}</td>
+    <td>{{ row.product }}</td>
+    <td>₹ {{ row.price }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/">Back Home</a>
+
+</body>
+</html>
