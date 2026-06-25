@@ -26,7 +26,7 @@ Technologies Used
 Frontend
 
 - HTML5
-- CSS3
+- CSSS
 
 Backend
 
